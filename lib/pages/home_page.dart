@@ -52,7 +52,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color.fromARGB(255, 119, 82, 182),
+      backgroundColor: const Color.fromARGB(255, 119, 82, 182),
 
       body: Center(
         child: Transform.rotate(
@@ -65,12 +65,12 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
                 height: 255,
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(_radiusAnimation.value),
-                  color: Color(0xff592688),
+                  color: const Color(0xff592688),
                   boxShadow: [
                     BoxShadow(
                       color: Colors.black.withOpacity(0.2),
                       blurRadius: 10,
-                      offset: Offset(0, 5),
+                      offset: const Offset(0, 5),
                     ),
                   ],
                 ),
@@ -87,12 +87,12 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
                         borderRadius: BorderRadius.circular(
                           _radiusAnimation.value,
                         ),
-                        color: Color(0xff6b1fa7), // Adjusted shade
+                        color: const Color(0xff6b1fa7), // Adjusted shade
                         boxShadow: [
                           BoxShadow(
                             color: Colors.black.withOpacity(0.2),
                             blurRadius: 10,
-                            offset: Offset(0, 5),
+                            offset: const Offset(0, 5),
                           ),
                         ],
                       ),
@@ -109,12 +109,12 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
                               borderRadius: BorderRadius.circular(
                                 _radiusAnimation.value,
                               ),
-                              color: Color(0xff8b1e9e), // Adjusted shade
+                              color: const Color(0xff8b1e9e), // Adjusted shade
                               boxShadow: [
                                 BoxShadow(
                                   color: Colors.black.withOpacity(0.2),
                                   blurRadius: 10,
-                                  offset: Offset(0, 5),
+                                  offset: const Offset(0, 5),
                                 ),
                               ],
                             ),
@@ -131,12 +131,12 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
                                     borderRadius: BorderRadius.circular(
                                       _radiusAnimation.value,
                                     ),
-                                    color: Color(0xffad4fd4), // Adjusted shade
+                                    color: const Color(0xffad4fd4), // Adjusted shade
                                     boxShadow: [
                                       BoxShadow(
                                         color: Colors.black.withOpacity(0.2),
                                         blurRadius: 10,
-                                        offset: Offset(0, 5),
+                                        offset: const Offset(0, 5),
                                       ),
                                     ],
                                   ),
@@ -154,7 +154,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
                                           borderRadius: BorderRadius.circular(
                                             _radiusAnimation.value,
                                           ),
-                                          color: Color(
+                                          color: const Color(
                                             0xffaf54f0,
                                           ), // Adjusted shade
                                           boxShadow: [
@@ -163,7 +163,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
                                                 0.2,
                                               ),
                                               blurRadius: 10,
-                                              offset: Offset(0, 5),
+                                              offset: const Offset(0, 5),
                                             ),
                                           ],
                                         ),
@@ -183,7 +183,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
                                           borderRadius: BorderRadius.circular(
                                             _radiusAnimation.value,
                                           ),
-                                          color: Color(
+                                          color: const Color(
                                             0xffcc81f9,
                                           ), // Adjusted shade
                                           boxShadow: [
@@ -192,7 +192,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
                                                 0.2,
                                               ),
                                               blurRadius: 10,
-                                              offset: Offset(0, 5),
+                                              offset: const Offset(0, 5),
                                             ),
                                           ],
                                         ),
@@ -211,7 +211,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
                                                     BorderRadius.circular(
                                                       _radiusAnimation.value,
                                                     ),
-                                                color: Color(
+                                                color: const Color(
                                                   0xffb370d9,
                                                 ), // Adjusted shade
                                                 boxShadow: [
@@ -219,7 +219,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
                                                     color: Colors.black
                                                         .withOpacity(0.2),
                                                     blurRadius: 10,
-                                                    offset: Offset(0, 5),
+                                                    offset: const Offset(0, 5),
                                                   ),
                                                 ],
                                               ),
@@ -240,13 +240,13 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
                                                     BorderRadius.circular(
                                                       _radiusAnimation.value,
                                                     ),
-                                                color: Color.fromARGB(255, 194, 124, 235), // Adjusted shade
+                                                color: const Color.fromARGB(255, 194, 124, 235), // Adjusted shade
                                                 boxShadow: [
                                                   BoxShadow(
                                                     color: Colors.black
                                                         .withOpacity(0.2),
                                                     blurRadius: 10,
-                                                    offset: Offset(0, 5),
+                                                    offset: const Offset(0, 5),
                                                   ),
                                                 ],
                                               ),
@@ -267,13 +267,13 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
                                                     BorderRadius.circular(
                                                       _radiusAnimation.value,
                                                     ),
-                                                color: Color.fromARGB(255, 215, 153, 251), // Adjusted shade
+                                                color: const Color.fromARGB(255, 215, 153, 251), // Adjusted shade
                                                 boxShadow: [
                                                   BoxShadow(
                                                     color: Colors.black
                                                         .withOpacity(0.2),
                                                     blurRadius: 10,
-                                                    offset: Offset(0, 5),
+                                                    offset: const Offset(0, 5),
                                                   ),
                                                 ],
                                               ),
@@ -294,7 +294,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
                                                     BorderRadius.circular(
                                                       _radiusAnimation.value,
                                                     ),
-                                                color: Color(
+                                                color: const Color(
                                                   0xffffffff,
                                                 ), // Adjusted shade
                                                 boxShadow: [
@@ -302,7 +302,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
                                                     color: Colors.black
                                                         .withOpacity(0.2),
                                                     blurRadius: 10,
-                                                    offset: Offset(0, 5),
+                                                    offset: const Offset(0, 5),
                                                   ),
                                                 ],
                                               ),
